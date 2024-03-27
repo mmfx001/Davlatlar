@@ -51,6 +51,7 @@ border: none;
 background-color: transparent;
 outline: none;
 color: white;
+
 }
 .d2{
     width: 40%;
@@ -77,16 +78,19 @@ body{
 .d3{
     display: flex;
     gap: 4%;
-    margin-left: 5%;
+   
     margin-top: 2%;
 }
 @media(max-width:430px){
     .d3{
         display: flex;
         flex-direction: column;
+        
+        align-items: center;
     }
     .d2{
-        margin-left: 7.5%;
+        margin-left: 5.5%;
+        width: 90%;
         
     }
     .p3{
