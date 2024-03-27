@@ -1,16 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    width: 100%;
-    height: 10vh;
-    background-color: #2B3844;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .p1{
     font-family: Nunito Sans;
 font-size: 24px;
@@ -27,6 +14,7 @@ font-weight: 600;
 line-height: 21.82px;
 text-align: left;
 color: white;
+margin-top: -4%;
 }
 .d1{
     display: flex;
@@ -77,6 +65,12 @@ body{
 .i11{
     width:34%;
     height: 37vh;
+}
+.i1{
+    width: 2%;
+    height: 2%;
+ margin-left: 90%;
+ margin-top: -4%;
 }
 .i22{
  
